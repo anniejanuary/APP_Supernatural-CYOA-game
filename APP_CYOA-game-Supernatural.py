@@ -41,5 +41,11 @@ elif sell_soul == "no" or sell_soul == "No" or sell_soul == "NO":
       print("You fight like Steven Segal in 'Under Siege' but you're outnumbered. You get killed by Purgatory vamps and are dragged to hell. Game over. Gosh darnit!")
     elif door == "black":
       print(f"You escape Purgatory but are killed by angel Metatron (there are angels now?!) with an angel blade (sure, there might as well be angel blades now) and die (shocker). Crowley, the prince of Hell, resurrects you as a demon (yay?). Oh wait, nay! Game over.")
+    else:
+      print("Enter: red, white or black: \n")
   elif purgatory == "wait" or purgatory == "Wait" or purgatory == "WAIT":
-    print("You run away from the Purgatory vamps but are stuck in Purgatory for eternity. Game over!")
+    print("You run away from the Purgatory vamps but are stuck in Purgatory for eternity. No pie in Purgatory. Game over!")
+  else:
+    print("Enter fight or wait: \n")
+else:
+  print("Enter yes or no: \n")
