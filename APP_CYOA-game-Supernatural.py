@@ -41,6 +41,6 @@ else:
     elif door == "black":
       print(f"You escape Purgatory but are killed by angel Metatron (there are angels now?!) with an angel blade (sure, there might as well be angel blades now) and die (shocker). Crowley, the prince of Hell, resurrects you as a demon (yay?). Oh wait, nay! Game over.")
     else:
-      print("Enter: red, white or black: \n")
+      print("You chose a wrong door. Game over")
   else:
     print("You run away from the Purgatory vamps but are stuck in Purgatory for eternity. No pie in Purgatory. Game over!")
